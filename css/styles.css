@@ -44,7 +44,7 @@ PANEL CLASSES
 MENU CLASSES
 -------------------------------------------------*/
 .menu-wrap{ height:auto; background:#000}
-.menu{ margin:0 auto; width:700px;}
+.menu{ margin:0 auto; width:1050px;}
 .menu img{ float:left;}
 /*.menu-mid{ float:left;background:url(../images/bg1.jpg) repeat-x center; height:100%;}
 .menu ul li{ float:left; background:url(../images/bg1.jpg) repeat-x center; color:#ffffff; font-size:19px; list-style:none; height:60px; line-height:60px; padding:0px 10px 0px 10px;}
