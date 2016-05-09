@@ -30,12 +30,12 @@
   </div>
   <div class="menu"> <img src="images/menu-left.png" alt="image"/>
     	<ul class="sf-menu" id="example">
-                <li><a href="index.html">Home</a></li>
-         <li><a href="medico.html">Buscar Medico</a></li>
-        <li> <a href="paciente.html">Buscar Paciente </a> </li>
-		<li> <a href="paciente.html">Buscar Cita </a> </li>
-        <li> <a href="contact.html">Buscar Examen</a> </li>
-		<li> <a href="contact.html">Buscar Receta</a> </li>
+        <li><a href="index.html">Home</a></li>
+         <li><a href="medico.php">Buscar Medico</a></li>
+        <li> <a href="paciente.php">Buscar Paciente </a> </li>
+		<li> <a href="consulta.php">Buscar Consulta </a> </li>
+        <li> <a href="examen.php">Buscar Examen</a> </li>
+		<li> <a href="receta.php">Buscar Receta</a> </li>
       </ul>
     <img src="images/menu-right.png" alt="image"/> </div>
 </div><!---header-wrap--->

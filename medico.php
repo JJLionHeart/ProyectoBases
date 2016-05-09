@@ -36,11 +36,11 @@ $resultado_busquedaSP = mysqli_query($conexion, "CALL ListaDoctores") or die("ER
   <div class="menu"> <img src="images/menu-left.png" alt="image"/>
     	<ul class="sf-menu" id="example">
         <li><a href="index.html">Home</a></li>
-         <li><a href="medico.html">Buscar Medico</a></li>
-        <li> <a href="paciente.html">Buscar Paciente </a> </li>
-		<li> <a href="paciente.html">Buscar Cita </a> </li>
-        <li> <a href="contact.html">Buscar Examen</a> </li>
-		<li> <a href="contact.html">Buscar Receta</a> </li>
+         <li><a href="medico.php">Buscar Medico</a></li>
+        <li> <a href="paciente.php">Buscar Paciente </a> </li>
+		<li> <a href="consulta.php">Buscar Consulta </a> </li>
+        <li> <a href="examen.php">Buscar Examen</a> </li>
+		<li> <a href="receta.php">Buscar Receta</a> </li>
       </ul>
     <img src="images/menu-right.png" alt="image"/> </div>
 </div><!---header-wrap--->
@@ -55,12 +55,9 @@ $resultado_busquedaSP = mysqli_query($conexion, "CALL ListaDoctores") or die("ER
 		<tr>
 			<th width = "85">ID</th>
 			<th width = "120">Nombre</th>
-			<th width = "150">Apellido</th>
-            <th width = "70">Genero</th>
-	    	<th>Fecha de Nacimiento</th>
-			<th>Tipo de sangre</th>
-            <th width = "85">Teléfono</th>
-		    <th>Nombre del seguro</th>
+			<th width = "150">Telefono</th>
+            <th width = "70">DireccionConsultorio</th>
+            <th width = "85">Especialidad</th>
 		</tr>
 	</thead>
 	<tbody>
